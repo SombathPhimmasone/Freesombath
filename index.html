@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แจกระบบ GTA SA-MP</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+
+<nav class="menu">
+  <div class="god">
+    <a href="#data">ข้อมูล</a>
+    <a href="#free">แจก</a>
+    <a href="#call">ติดต่อ</a>
+  </div>
+</nav>
+
+<section id="data">
+  <h1>ข้อมูล</h1>
+  <p>รับทำระบบ textdraw และแก้ไขระบบเกม GTA SA-MP</p>
+  <a class="btn" href="#call">ติดต่อซื้อและจ้างงาน</a>
+</section>
+
+<section id="free">
+  <h1>ของแจกฟรี</h1>
+
+  <div class="free-item">
+    <img src="free2.jpg" alt="Speed System">
+    <p>ระบบความเร็วรถ ใช้เปอร์เซ็นต์กำหนดความเร็ว เพิ่มความสมจริงเมื่อขับรถในเกม</p>
+    <a class="btn download" href="https://www.mediafire.com/file/fnuywjyiseohdnt/speed.pwn/file" target="_blank">ดาวน์โหลด</a>
+  </div>
+
+  <div class="free-item">
+    <img src="GPS.png" alt="3D GPS">
+    <p>GPS 3 มิติ แสดงเส้นทางแบบ 3D มีชื่อสถานที่และบอกระยะทางอย่างชัดเจน</p>
+    <a class="btn download" href="https://www.mediafire.com/file/62yy36onztlcry7/GPS3D.pwn/file">ดาวน์โหลด</a>
+  </div>
+</section>
+
+<section id="call">
+  <h1>ติดต่อซื้อและจ้างงาน</h1>
+  <div class="contacts">
+    <a href="https://www.facebook.com/share/16PGuMqaR4/" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+    <a href="https://discord.gg/pbt3Je7h" target="_blank"><i class="bi bi-discord"></i> Discord</a>
+  </div>
+</section>
+  <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(() => console.log('Service Worker Registered'))
+                .catch((error) => console.log('Service Worker Error:', error));
+        }
+    </script>
+</body>
+</html>
